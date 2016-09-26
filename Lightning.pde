@@ -2,14 +2,12 @@ int endX = 0;
 int endY = 150;
 int startX= 0;
 int startY = 150;
-PImage bg;
 void setup(){
-  bg = loadImage("data/clouds-sky-300x300.jpg");
   size(300,300);
   strokeWeight(2);
 }
 void draw(){
-  background(bg);
+  background(0);
   stroke(random(255),random(255),0);
 while (endX <= 310)
     {
