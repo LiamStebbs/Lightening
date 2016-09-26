@@ -3,11 +3,11 @@ int endY = 150;
 int startX= 0;
 int startY = 150;
 void setup(){
+  background(0);
   size(300,300);
   strokeWeight(2);
 }
 void draw(){
-  background(0);
   stroke(random(255),random(255),0);
 while (endX <= 310)
     {
